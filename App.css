@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #333;
+  padding: 5px 40px 5px 0px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Fixed position */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 90%;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
