@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path={ROUTES.CartPage}  element ={<CartPage />}/>
-        
+        <Route path='/' element={<Home />}/>
         
       </Routes>
     </Router>

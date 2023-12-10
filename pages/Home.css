@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: beige
+}
+.n{
+    height: 300px;
+
+}
+h1{
+    display: inline;
+    font-size: 50px;
+    color: rgb(122, 80, 50);
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.s{
+    height: 350px;
+    padding-right: 20px;
+}
+.v{
+    height: 350px;
+
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
